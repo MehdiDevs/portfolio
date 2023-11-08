@@ -682,6 +682,10 @@ footer {
   }
   #hire-me {
     padding: 17px 40px 17px 40px;
+    font-size: 21px;
+  }
+  #view-my-portfolio {
+    font-size: 21px;
   }
   .menu li {
     padding: 0;
