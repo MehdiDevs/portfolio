@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <link
+      href="https://db.onlinewebfonts.com/c/55d433372d270829c51e2577a78ef12d?family=Monument+Extended+Bold"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="/img/pfIcon.png">
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="styles.css" />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+         />
+      <link href="https://fonts.cdnfonts.com/css/roboto" rel="stylesheet">
+      <link href="https://fonts.cdnfonts.com/css/adlinnaka" rel="stylesheet">
+      <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+   <body>
+      <section id="home" class="section first-section">
+         <div id="spacer"></div>
+         <div id="scroll-header-appear">
+            <div id="header-content-container">
+
+            <div id="header-content">
+               <div id="logo-section">MehdiCompany</div>
+               <!-- Navbar button -->
+               <button class="menu-button" aria-label="Main Menu">
+                  <svg width="40" height="40" viewBox="0 0 100 100">
+                     <path
+                        class="line line1"
+                        d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"
+                        />
+                     <path class="line line2" d="M 20,50 H 80" />
+                     <path
+                        class="line line3"
+                        d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"
+                        />
+                  </svg>
+               </button>
+            </div>
+            <!-- navigation -->
+            <nav class="navbar">
+               <ul class="menu">
+                  <li ref="#home"><a >Home</a></li>
+                  <li ref="#projects"><a >Projects</a></li>
+                  <li ref="#skills"><a >Skills</a></li>
+               </ul>
+            </nav>
+         </div>
+
+         </div>
+         <div id="name-and-picture">
+         <div class="name-presentation">
+            <p class="multiline-text">
+               <span id="hello-span" class="white-texte">Hello, I'm</span>
+               <span id="last-name" class="white-texte"> Gobbe </span
+                  ><span id="first-name" class="blue-color"> Mehdi</span>
+               <span id="static-animated-text">A <span id="animated-text"></span></span >
+            </p>
+            <div class="portfolio-contact-link">
+               <a id="hire-me"> HIRE ME </a>
+               <a id="view-my-portfolio" href="#projects">VIEW MY PORTFOLIO</a>
+            </div>
+         </div>
+         <div id="competence-and-picture">
+            <div class="picture-competences-section">
+               <img id="back-profil-picture" src="/img/rounded_border.png" />
+               <img id="profil-picture" src="/img/Cv_picture.jpeg" />
+            </div>
+            <div class="competences-section">
+               <div class="competence fade-in">
+                  <div class="polygon-bg"></div>
+                  <i class="fas fa-plus fa-2x icon-blue"></i>
+                  <p>PERFECTIONIST</p>
+               </div>
+               <div class="competence fade-in">
+                  <div class="polygon-bg"></div>
+                  <i class="fas fa-plus fa-2x icon-blue"></i>
+                  <p>PASSIONED</p>
+               </div>
+               <div class="competence fade-in">
+                  <div class="polygon-bg"></div>
+                  <i class="fas fa-plus fa-2x icon-blue"></i>
+                  <p>FAST LEARNING</p>
+               </div>
+            </div>
+         </div>
+         <div id="design-elements">
+            <img class="de-hero-1 elem-updown" src="./img/design-elements/hero-element-1.png" alt="hero element 1">
+            <img class="de-hero-2 elem-move" src="./img/design-elements/hero-element-2.png" alt="hero element 2">
+            <img class="de-hero-3 elem-zoom" src="./img/design-elements/hero-element-3.png" alt="hero element 3">
+            <img class="de-hero-4 elem-zoom" src="./img/design-elements/hero-element-3.png" alt="hero element 3">
+            <img class="de-hero-5 elem-zoom" src="./img/design-elements/hero-element-3.png" alt="hero element 3">
+            <img class="de-hero-6 elem-zoom" src="./img/design-elements/hero-element-3.png" alt="hero element 3">
+            <img class="de-hero-7" src="./img/design-elements/hero-element-4.png" alt="hero element 4">
+         </div>
+      </section>
+      <!-- Projects section -->
+      <section id="projects" class="section projects-section">
+         <h3>
+            Recent Projects
+            <div class="bottom-border-header-section"></div>
+         </h3>
+         <!-- Mobile version -->
+         <div class="projects-container">
+            <div class="project-container">
+               <div class="project-container-content">
+                  <img class="project-img" src="./img/kitchen-png.webp" />
+                  <div class="project-description">
+                     <p class="project-name">Foodiz back-office</p>
+                     <p class="project-description-fonction">Full stack developer</p>
+                  </div>
+               </div>
+               <div class="arrow-right-container">
+                  <i class="fa-sharp fa fa-arrow-right arrow-right"></i>
+               </div>
+               <button type="button" class="w-btn-circle {{ options.class }}" {{ options.attribute }}>
+               <div class="btn-circle-container">
+                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 56">
+                     <circle class="btn-circle-prog" cx="28" cy="28" r="27" fill="none" stroke="#000" stroke-width="1"></circle>
+                  </svg>
+               </div>
+               </button>
+            </div>
+            <div class="bottom-border-project"></div>
+            <div class="project-container">
+               <div class="project-container-content">
+                  <img class="project-img" src="./img/Flora.png" />
+                  <div class="project-description">
+                     <p class="project-name">Kholabs appéritif</p>
+                     <p class="project-description-fonction">Front-end developer</p>
+                  </div>
+               </div>
+               <div class="arrow-right-container">
+                  <i class="fa-sharp fa fa-arrow-right arrow-right"></i>
+               </div>
+               <button type="button" class="w-btn-circle {{ options.class }}" {{ options.attribute }}>
+               <div class="btn-circle-container">
+                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 56">
+                     <circle class="btn-circle-prog" cx="28" cy="28" r="27" fill="none" stroke="#000" stroke-width="1"></circle>
+                  </svg>
+               </div>
+               </button>
+            </div>
+            
+         </div>
+         <!-- Web version -->
+         <div class="web-project-container">
+         <div class="recent-project-container">
+            <div class="hidden-block-project-title">
+               <p class="recent-projects-title">RECENT PROJECTS</p>
+            </div>
+         </div>
+         <div id="first-project-container" class="about-me-img-and-btn-container">
+            <div class="project-img-and-text-wrapper">
+               <img class="about-me-image" src="./img/kitchen-png.webp"/>
+               <div class="projet-title-and-text">
+                  <div style="display: flex; justify-content: space-between;">
+                     <h4 class="project-title">Foodiz back office</h4>
+                     <div style="display: flex; align-items: center;">
+                        <div class="fa-skills">
+                           <i class="fa-brands fa-react"></i>
+                        </div>
+                        <div class="fa-skills">
+                           <i class="fa-brands fa-golang"></i>
+                        </div>
+                        <div class="fa-skills">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 24 24"><path fill="white" d="M1.125 0C.502 0 0 .502 0 1.125v21.75C0 23.498.502 24 1.125 24h21.75c.623 0 1.125-.502 1.125-1.125V1.125C24 .502 23.498 0 22.875 0zm17.363 9.75c.612 0 1.154.037 1.627.111a6.38 6.38 0 0 1 1.306.34v2.458a3.95 3.95 0 0 0-.643-.361a5.093 5.093 0 0 0-.717-.26a5.453 5.453 0 0 0-1.426-.2c-.3 0-.573.028-.819.086a2.1 2.1 0 0 0-.623.242c-.17.104-.3.229-.393.374a.888.888 0 0 0-.14.49c0 .196.053.373.156.529c.104.156.252.304.443.444s.423.276.696.41c.273.135.582.274.926.416c.47.197.892.407 1.266.628c.374.222.695.473.963.753c.268.279.472.598.614.957c.142.359.214.776.214 1.253c0 .657-.125 1.21-.373 1.656a3.033 3.033 0 0 1-1.012 1.085a4.38 4.38 0 0 1-1.487.596c-.566.12-1.163.18-1.79.18a9.916 9.916 0 0 1-1.84-.164a5.544 5.544 0 0 1-1.512-.493v-2.63a5.033 5.033 0 0 0 3.237 1.2c.333 0 .624-.03.872-.09c.249-.06.456-.144.623-.25c.166-.108.29-.234.373-.38a1.023 1.023 0 0 0-.074-1.089a2.12 2.12 0 0 0-.537-.5a5.597 5.597 0 0 0-.807-.444a27.72 27.72 0 0 0-1.007-.436c-.918-.383-1.602-.852-2.053-1.405c-.45-.553-.676-1.222-.676-2.005c0-.614.123-1.141.369-1.582c.246-.441.58-.804 1.004-1.089a4.494 4.494 0 0 1 1.47-.629a7.536 7.536 0 0 1 1.77-.201zm-15.113.188h9.563v2.166H9.506v9.646H6.789v-9.646H3.375z"/></svg>
+                        </div>
+                        <div class="fa-skills">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 24 24"><path fill="white" d="M12 0C5.352 0 0 5.352 0 12s5.352 12 12 12s12-5.352 12-12S18.648 0 12 0zm2.8 4.333c.13-.004.248.136.171.278l-3.044 5.58a.187.187 0 0 0 .164.276h5.26c.17 0 .252.207.128.323l-9.22 8.605c-.165.154-.41-.063-.278-.246l4.364-6.021a.187.187 0 0 0-.151-.296H6.627a.187.187 0 0 1-.131-.32l8.18-8.123a.182.182 0 0 1 .125-.056z"/></svg>
+                        </div>
+                        <div class="fa-skills">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 24 24"><path fill="white" d="M6.93 13.688a.343.343 0 0 1 .468.132l.063.106c.48.851.98 1.66 1.5 2.426a35.65 35.65 0 0 0 2.074 2.742a.345.345 0 0 1-.039.484l-.074.066c-2.543 2.223-4.191 2.665-4.953 1.333c-.746-1.305-.477-3.672.808-7.11a.344.344 0 0 1 .153-.18ZM17.75 16.3a.34.34 0 0 1 .395.27l.02.1c.628 3.286.187 4.93-1.325 4.93c-1.48 0-3.36-1.402-5.649-4.203a.327.327 0 0 1-.074-.222c0-.188.156-.34.344-.34h.121a32.984 32.984 0 0 0 2.809-.098c1.07-.086 2.191-.23 3.359-.437zm.871-6.977a.353.353 0 0 1 .445-.21l.102.034c3.262 1.11 4.504 2.332 3.719 3.664c-.766 1.305-2.993 2.254-6.684 2.848a.362.362 0 0 1-.238-.047a.343.343 0 0 1-.125-.476l.062-.106a34.07 34.07 0 0 0 1.367-2.523c.477-.989.93-2.051 1.352-3.184zM7.797 8.34a.362.362 0 0 1 .238.047a.343.343 0 0 1 .125.476l-.062.106a34.088 34.088 0 0 0-1.367 2.523c-.477.988-.93 2.051-1.352 3.184a.353.353 0 0 1-.445.21l-.102-.034C1.57 13.742.328 12.52 1.113 11.188C1.88 9.883 4.106 8.934 7.797 8.34Zm5.281-3.984c2.543-2.223 4.192-2.664 4.953-1.332c.746 1.304.477 3.671-.808 7.109a.344.344 0 0 1-.153.18a.343.343 0 0 1-.468-.133l-.063-.106a34.64 34.64 0 0 0-1.5-2.426a35.65 35.65 0 0 0-2.074-2.742a.345.345 0 0 1 .039-.484ZM7.285 2.274c1.48 0 3.364 1.402 5.649 4.203a.349.349 0 0 1 .078.218a.348.348 0 0 1-.348.344l-.117-.004a34.584 34.584 0 0 0-2.809.102a35.54 35.54 0 0 0-3.363.437a.343.343 0 0 1-.394-.273l-.02-.098c-.629-3.285-.188-4.93 1.324-4.93Zm2.871 5.812h3.688a.638.638 0 0 1 .55.316l1.848 3.22a.644.644 0 0 1 0 .628l-1.847 3.223a.638.638 0 0 1-.551.316h-3.688a.627.627 0 0 1-.547-.316L7.758 12.25a.644.644 0 0 1 0-.629L9.61 8.402a.627.627 0 0 1 .546-.316Zm3.23.793a.638.638 0 0 1 .552.316l1.39 2.426a.644.644 0 0 1 0 .629l-1.39 2.43a.638.638 0 0 1-.551.316h-2.774a.627.627 0 0 1-.546-.316l-1.395-2.43a.644.644 0 0 1 0-.629l1.395-2.426a.627.627 0 0 1 .546-.316Zm-.491.867h-1.79a.624.624 0 0 0-.546.316l-.899 1.56a.644.644 0 0 0 0 .628l.899 1.563a.632.632 0 0 0 .547.316h1.789a.632.632 0 0 0 .547-.316l.898-1.563a.644.644 0 0 0 0-.629l-.898-1.558a.624.624 0 0 0-.547-.317Zm-.477.828c.227 0 .438.121.547.317l.422.73a.625.625 0 0 1 0 .629l-.422.734a.627.627 0 0 1-.547.317h-.836a.632.632 0 0 1-.547-.317l-.422-.734a.625.625 0 0 1 0-.629l.422-.73a.632.632 0 0 1 .547-.317zm-.418.817a.548.548 0 0 0-.473.273a.547.547 0 0 0 0 .547a.544.544 0 0 0 .473.27a.544.544 0 0 0 .473-.27a.547.547 0 0 0 0-.547a.548.548 0 0 0-.473-.273Zm-4.422.546h.98M18.98 7.75c.391-1.895.477-3.344.223-4.398c-.148-.63-.422-1.137-.84-1.508c-.441-.39-1-.582-1.625-.582c-1.035 0-2.12.472-3.281 1.367a14.9 14.9 0 0 0-1.473 1.316a1.206 1.206 0 0 0-.136-.144c-1.446-1.285-2.66-2.082-3.7-2.39c-.617-.184-1.195-.2-1.722-.024c-.559.187-1.004.574-1.317 1.117c-.515.894-.652 2.074-.46 3.527c.078.59.214 1.235.402 1.934a1.119 1.119 0 0 0-.215.047C3.008 8.62 1.71 9.269.926 10.015c-.465.442-.77.938-.883 1.481c-.113.578 0 1.156.312 1.7c.516.894 1.465 1.597 2.817 2.155a15.21 15.21 0 0 0 1.844.61a1.023 1.023 0 0 0-.07.226c-.391 1.891-.477 3.344-.223 4.395c.148.629.425 1.14.84 1.508c.44.39 1 .582 1.625.582c1.035 0 2.12-.473 3.28-1.364c.477-.37.973-.816 1.489-1.336a1.2 1.2 0 0 0 .195.227c1.446 1.285 2.66 2.082 3.7 2.39c.617.184 1.195.2 1.722.024c.559-.187 1.004-.574 1.317-1.117c.515-.894.652-2.074.46-3.527a14.941 14.941 0 0 0-.425-2.012a1.225 1.225 0 0 0 .238-.047c1.828-.61 3.125-1.258 3.91-2.004c.465-.441.77-.937.883-1.48c.113-.578 0-1.157-.313-1.7c-.515-.894-1.464-1.597-2.816-2.156a14.576 14.576 0 0 0-1.906-.625a.865.865 0 0 0 .059-.195z"/></svg>
+                        </div>
+                     </div>
+                  </div>
+                  <span class="project-date" >Décembre 2022 - Septembre 2023 (10 mois)</span>
+                  <div class="bullets-project-info">
+                     <div class="project-skills-learned">
+                        <div class="project-bullet"></div>
+                        <span>Supervisation et création du projet de A à Z. (Back-end + Front-end)</span>
+                     </div>
+                     <div class="project-skills-learned">
+                        <div class="project-bullet"></div>
+                        <span>Application de la méthodologie agile. (Création de ticket d'analyse + metting début de semaine, ...)</span>
+                     </div>
+                     <div class="project-skills-learned">
+                        <div class="project-bullet"></div>
+                        <span>Mise en place de tests unitaires, fonctionnels, de performances et de d'intégrations.</span>
+                     </div>
+                     <div class="project-skills-learned">
+                        <div class="project-bullet"></div>
+                        <span>Mise en place de bonnes pratiques : optimisation, documentation et principes du "clean code".</span>
+                     </div>
+                     <div class="project-skills-learned">
+                        <div class="project-bullet"></div>
+                        <span>Contribution proactive à l'amélioration du projet en
+                           proposant des fonctionnalités innovantes ainsi que
+                           leur mise en place</span>
+                     </div>
+                     <div class="project-skills-learned">
+                        <div class="project-bullet"></div>
+                        <span>Apprentissage d'une grande variété de tech : React Query, Go, Chakra UI, ...</span>
+                     </div>
+                     <div class="project-skills-learned">
+                        <div class="project-bullet"></div>
+                        <a style="text-decoration: none;" href="https://www.youtube.com/watch?v=WsnK3pN9a30&ab_channel=OhBLZ"><span>Démo de l'application</span></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+
+         <div class="about-me-img-and-btn-container">
+            <div class="project-img-and-text-wrapper">
+               <div class="second-projet-title-and-text">
+                  <div style="display: flex; justify-content: space-between;">
+                     <div style="display: flex; align-items: center;">
+                        <div class="fa-skills">
+                           <i class="fa-brands fa-html5"></i>
+                        </div>
+                        <div class="fa-skills">
+                           <i style="font-size: 26px;" class="fa-brands fa-css3"></i>
+                        </div>
+                        <div class="fa-skills">
+                           <i class="fa-brands fa-js"></i>
+                        </div>
+
+                     </div>
+                     <h4 class="second-project-title">Kholabs carrousel</h4>  
+                  </div>
+                  <span class="second-project-date" >Novembre 2023 - Maintenant  (En cours de création)</span>
+                  <div class="bullets-project-info-unpair">
+                     <div class="project-skills-learned">
+                        <div class="project-bullet"></div>
+                        <span>Création d'un créative design</span>
+                     </div>
+                     <div class="project-skills-learned">
+                        <div class="project-bullet"></div>
+                        <span>Discussion avec le client du design et des techs</span>
+                     </div>
+                     <div class="project-skills-learned">
+                        <div class="project-bullet"></div>
+                        <span>Développement du front-end</span>
+                     </div>
+                     <div class="project-skills-learned">
+                        <div class="project-bullet"></div>
+                        <a style="text-decoration: none;" href="https://www.youtube.com/watch?v=3QgRMd7t87M&abchannel=OhBLZ"><span>Démo de l'application (en cours de développement)</span></a>
+                     </div>
+
+                  </div>
+
+          </div>
+               <img class="about-me-image" src="./img/Flora.png"/>
+            </div>
+         </div>
+      </div>
+
+            <button id="dl-btn" class="box bar"><span style="color: white;"> DOWNLOAD CV</span>
+            <a  style="text-decoration: none;" href="https://drive.google.com/file/d/1t9124Bh02lH75zPfMgV0PXIluC23a0I6/view?usp=drive_link">
+            <i  style="color: white;" class="fas fa-download"></i>
+            </a>
+            </button>
+         </div>
+      </section>
+      <!-- COMPETENCES SECTION -->
+      <section id="skills" class="section carousel"
+         data-flickity='{ "autoPlay": 1700,"draggable": true,"groupCells": true, "contain": true, "prevNextButtons": false, "pageDots": false,"cellAlign":"center","wrapAround": true}'>
+         <div class="carousel-cell">
+            <div class="carousel-image-wrapper">
+               <i class="fa-brands fa-react fa-4x"></i>
+               <p>REACT</p>
+            </div>
+         </div>
+         <div class="carousel-cell">
+            <div class="carousel-image-wrapper">
+               <i class="fa-brands fa-js fa-4x"></i>
+               <p>JS</p>
+            </div>
+         </div>
+         <div class="carousel-cell">
+            <div class="carousel-image-wrapper">
+               <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24"><path fill="white" d="M1.125 0C.502 0 0 .502 0 1.125v21.75C0 23.498.502 24 1.125 24h21.75c.623 0 1.125-.502 1.125-1.125V1.125C24 .502 23.498 0 22.875 0zm17.363 9.75c.612 0 1.154.037 1.627.111a6.38 6.38 0 0 1 1.306.34v2.458a3.95 3.95 0 0 0-.643-.361a5.093 5.093 0 0 0-.717-.26a5.453 5.453 0 0 0-1.426-.2c-.3 0-.573.028-.819.086a2.1 2.1 0 0 0-.623.242c-.17.104-.3.229-.393.374a.888.888 0 0 0-.14.49c0 .196.053.373.156.529c.104.156.252.304.443.444s.423.276.696.41c.273.135.582.274.926.416c.47.197.892.407 1.266.628c.374.222.695.473.963.753c.268.279.472.598.614.957c.142.359.214.776.214 1.253c0 .657-.125 1.21-.373 1.656a3.033 3.033 0 0 1-1.012 1.085a4.38 4.38 0 0 1-1.487.596c-.566.12-1.163.18-1.79.18a9.916 9.916 0 0 1-1.84-.164a5.544 5.544 0 0 1-1.512-.493v-2.63a5.033 5.033 0 0 0 3.237 1.2c.333 0 .624-.03.872-.09c.249-.06.456-.144.623-.25c.166-.108.29-.234.373-.38a1.023 1.023 0 0 0-.074-1.089a2.12 2.12 0 0 0-.537-.5a5.597 5.597 0 0 0-.807-.444a27.72 27.72 0 0 0-1.007-.436c-.918-.383-1.602-.852-2.053-1.405c-.45-.553-.676-1.222-.676-2.005c0-.614.123-1.141.369-1.582c.246-.441.58-.804 1.004-1.089a4.494 4.494 0 0 1 1.47-.629a7.536 7.536 0 0 1 1.77-.201zm-15.113.188h9.563v2.166H9.506v9.646H6.789v-9.646H3.375z"/></svg>
+               <p>TS</p>
+            </div>
+         </div>
+         <div class="carousel-cell">
+            <div class="carousel-image-wrapper">
+               <i class="fa-brands fa-html5 fa-4x"></i>
+               <p>HTML</p>
+            </div>
+         </div>
+         <div class="carousel-cell">
+            <div class="carousel-image-wrapper">
+               <i class="fa-brands fa-css3-alt fa-4x"></i>
+               <p>CSS</p>
+            </div>
+         </div>
+         <div class="carousel-cell">
+            <div class="carousel-image-wrapper">
+               <i class="fa-brands fa-java fa-4x"></i>
+               <p>JAVA</p>
+            </div>
+         </div>
+         <div class="carousel-cell">
+            <div class="carousel-image-wrapper">
+               <i class="fa-brands fa-golang fa-4x"></i>
+               <p>GO</p>
+            </div>
+         </div>
+         <div class="carousel-cell">
+            <div class="carousel-image-wrapper">
+               <i class="fa-brands fa-docker fa-4x"></i>
+               <p>DOCKER</p>
+            </div>
+         </div>
+         <div class="carousel-cell">
+            <div class="carousel-image-wrapper">
+               <i style="color: white;" class="fa-solid fa-diagram-project fa-4x"></i>                                            
+               <p>UML</p>
+            </div>
+         </div>
+         <div class="carousel-cell">
+            <div class="carousel-image-wrapper">
+               <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24"><path fill="white" d="M12 0C5.352 0 0 5.352 0 12s5.352 12 12 12s12-5.352 12-12S18.648 0 12 0zm2.8 4.333c.13-.004.248.136.171.278l-3.044 5.58a.187.187 0 0 0 .164.276h5.26c.17 0 .252.207.128.323l-9.22 8.605c-.165.154-.41-.063-.278-.246l4.364-6.021a.187.187 0 0 0-.151-.296H6.627a.187.187 0 0 1-.131-.32l8.18-8.123a.182.182 0 0 1 .125-.056z"/></svg>
+               <p>CHAKRA UI</p>
+            </div>
+         </div>
+         <div class="carousel-cell">
+            <div class="carousel-image-wrapper">
+               <svg xmlns="http://www.w3.org/2000/svg" width="78" height="78" viewBox="0 0 24 24"><path fill="white" d="M6.93 13.688a.343.343 0 0 1 .468.132l.063.106c.48.851.98 1.66 1.5 2.426a35.65 35.65 0 0 0 2.074 2.742a.345.345 0 0 1-.039.484l-.074.066c-2.543 2.223-4.191 2.665-4.953 1.333c-.746-1.305-.477-3.672.808-7.11a.344.344 0 0 1 .153-.18ZM17.75 16.3a.34.34 0 0 1 .395.27l.02.1c.628 3.286.187 4.93-1.325 4.93c-1.48 0-3.36-1.402-5.649-4.203a.327.327 0 0 1-.074-.222c0-.188.156-.34.344-.34h.121a32.984 32.984 0 0 0 2.809-.098c1.07-.086 2.191-.23 3.359-.437zm.871-6.977a.353.353 0 0 1 .445-.21l.102.034c3.262 1.11 4.504 2.332 3.719 3.664c-.766 1.305-2.993 2.254-6.684 2.848a.362.362 0 0 1-.238-.047a.343.343 0 0 1-.125-.476l.062-.106a34.07 34.07 0 0 0 1.367-2.523c.477-.989.93-2.051 1.352-3.184zM7.797 8.34a.362.362 0 0 1 .238.047a.343.343 0 0 1 .125.476l-.062.106a34.088 34.088 0 0 0-1.367 2.523c-.477.988-.93 2.051-1.352 3.184a.353.353 0 0 1-.445.21l-.102-.034C1.57 13.742.328 12.52 1.113 11.188C1.88 9.883 4.106 8.934 7.797 8.34Zm5.281-3.984c2.543-2.223 4.192-2.664 4.953-1.332c.746 1.304.477 3.671-.808 7.109a.344.344 0 0 1-.153.18a.343.343 0 0 1-.468-.133l-.063-.106a34.64 34.64 0 0 0-1.5-2.426a35.65 35.65 0 0 0-2.074-2.742a.345.345 0 0 1 .039-.484ZM7.285 2.274c1.48 0 3.364 1.402 5.649 4.203a.349.349 0 0 1 .078.218a.348.348 0 0 1-.348.344l-.117-.004a34.584 34.584 0 0 0-2.809.102a35.54 35.54 0 0 0-3.363.437a.343.343 0 0 1-.394-.273l-.02-.098c-.629-3.285-.188-4.93 1.324-4.93Zm2.871 5.812h3.688a.638.638 0 0 1 .55.316l1.848 3.22a.644.644 0 0 1 0 .628l-1.847 3.223a.638.638 0 0 1-.551.316h-3.688a.627.627 0 0 1-.547-.316L7.758 12.25a.644.644 0 0 1 0-.629L9.61 8.402a.627.627 0 0 1 .546-.316Zm3.23.793a.638.638 0 0 1 .552.316l1.39 2.426a.644.644 0 0 1 0 .629l-1.39 2.43a.638.638 0 0 1-.551.316h-2.774a.627.627 0 0 1-.546-.316l-1.395-2.43a.644.644 0 0 1 0-.629l1.395-2.426a.627.627 0 0 1 .546-.316Zm-.491.867h-1.79a.624.624 0 0 0-.546.316l-.899 1.56a.644.644 0 0 0 0 .628l.899 1.563a.632.632 0 0 0 .547.316h1.789a.632.632 0 0 0 .547-.316l.898-1.563a.644.644 0 0 0 0-.629l-.898-1.558a.624.624 0 0 0-.547-.317Zm-.477.828c.227 0 .438.121.547.317l.422.73a.625.625 0 0 1 0 .629l-.422.734a.627.627 0 0 1-.547.317h-.836a.632.632 0 0 1-.547-.317l-.422-.734a.625.625 0 0 1 0-.629l.422-.73a.632.632 0 0 1 .547-.317zm-.418.817a.548.548 0 0 0-.473.273a.547.547 0 0 0 0 .547a.544.544 0 0 0 .473.27a.544.544 0 0 0 .473-.27a.547.547 0 0 0 0-.547a.548.548 0 0 0-.473-.273Zm-4.422.546h.98M18.98 7.75c.391-1.895.477-3.344.223-4.398c-.148-.63-.422-1.137-.84-1.508c-.441-.39-1-.582-1.625-.582c-1.035 0-2.12.472-3.281 1.367a14.9 14.9 0 0 0-1.473 1.316a1.206 1.206 0 0 0-.136-.144c-1.446-1.285-2.66-2.082-3.7-2.39c-.617-.184-1.195-.2-1.722-.024c-.559.187-1.004.574-1.317 1.117c-.515.894-.652 2.074-.46 3.527c.078.59.214 1.235.402 1.934a1.119 1.119 0 0 0-.215.047C3.008 8.62 1.71 9.269.926 10.015c-.465.442-.77.938-.883 1.481c-.113.578 0 1.156.312 1.7c.516.894 1.465 1.597 2.817 2.155a15.21 15.21 0 0 0 1.844.61a1.023 1.023 0 0 0-.07.226c-.391 1.891-.477 3.344-.223 4.395c.148.629.425 1.14.84 1.508c.44.39 1 .582 1.625.582c1.035 0 2.12-.473 3.28-1.364c.477-.37.973-.816 1.489-1.336a1.2 1.2 0 0 0 .195.227c1.446 1.285 2.66 2.082 3.7 2.39c.617.184 1.195.2 1.722.024c.559-.187 1.004-.574 1.317-1.117c.515-.894.652-2.074.46-3.527a14.941 14.941 0 0 0-.425-2.012a1.225 1.225 0 0 0 .238-.047c1.828-.61 3.125-1.258 3.91-2.004c.465-.441.77-.937.883-1.48c.113-.578 0-1.157-.313-1.7c-.515-.894-1.464-1.597-2.816-2.156a14.576 14.576 0 0 0-1.906-.625a.865.865 0 0 0 .059-.195z"/></svg>
+               <p>REACT QUERY</p>
+            </div>
+         </div>
+         <div class="carousel-cell">
+            <div class="carousel-image-wrapper">
+               <i style="color: white;" class="fa-solid fa-database fa-4x"></i>
+               <p>DATABASE</p>
+            </div>
+         </div>
+
+      </section>
+      <footer>
+         <div class="footer-icons">
+            <div id="adress-mail">
+               mehdigobbe@hotmail.com
+            </div>
+            <div id="hidden-block">
+            </div>
+            <div id="contact-me" class="footer-icon-container">
+               <i class="fa-regular fa-envelope"></i>
+            </div>
+            <div class="footer-icon-container">
+               <a href="https://github.com/MehdiDevs"> <i class="fa-brands fa-github"></i></a>
+            </div>
+            <div class="footer-icon-container">
+               <a href="https://www.linkedin.com/in/mehdi-gobbe-6b181423a/">
+               <i class="fa-brands fa-linkedin"></i></a>
+            </div>
+         </div>
+      </footer>
+   </body>
+   <script src="script.js"></script>
+   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</html>
