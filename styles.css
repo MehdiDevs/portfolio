@@ -196,10 +196,9 @@ body {
   color: #5a7ffb;
 }
 #animated-text {
-  font-size: 1.875rem;
+  font-size: 25px;
   color: white;
   font-weight: 600;
-  font-size: 30px;
 }
 #static-animated-text {
   font-size: 1.125rem;
@@ -282,24 +281,28 @@ body {
 }
 
 #view-my-portfolio {
+  text-align: center;
   margin-left: 1.25rem;
   color: #5a7ffb;
   font-weight: bold;
   cursor: pointer;
   text-decoration: none;
   transition: color 0.2s ease;
+  font-size: 16px;
 }
 #view-my-portfolio:hover {
   color: white;
 }
 #hire-me {
   background-color: #5a7ffb;
-  padding: 14px 30px 14px 30px;
+  text-align: center;
+  padding: 17px 28px 17px 28px;
   cursor: pointer;
   border-radius: 6px;
   color: #ffff;
   font-weight: bold;
   transition: background-color 0.2s ease;
+  font-size: 16px;
 }
 #hire-me:hover {
   background-color: #063ae9;
@@ -544,8 +547,8 @@ body {
 }
 
 .project-img {
-  width: 150px;
-  height: 100px;
+  width: 100px;
+  height: 120px;
   border-radius: 4px;
   transition: transform 0.5s;
   object-fit: cover;
@@ -676,6 +679,9 @@ footer {
 @media (min-width: 1200px) {
   html {
     font-size: 21px;
+  }
+  #hire-me {
+    padding: 17px 40px 17px 40px;
   }
   .menu li {
     padding: 0;
@@ -1153,9 +1159,6 @@ footer {
   display: none;
 }
 
-#hire-me {
-  padding: 17px 40px 17px 40px;
-}
 .projet-title-and-text {
   display: flex;
   flex-direction: column;
