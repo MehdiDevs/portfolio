@@ -165,6 +165,18 @@ document.addEventListener("DOMContentLoaded", function () {
   const projectContainers = document.querySelectorAll(".project-container");
 
   projectContainers.forEach((projectContainer) => {
+    projectContainer.addEventListener("click", () => {
+      if (
+        projectContainer.querySelector(".project-name").innerHTML ===
+        "Foodiz back-office"
+      ) {
+        window.location.href =
+          "https://www.youtube.com/watch?v=WsnK3pN9a30&ab_channel=OhBLZ";
+      } else {
+        window.location.href =
+          "https://www.youtube.com/watch?v=3QgRMd7t87M&abchannel=OhBLZ";
+      }
+    });
     const projectDescription = projectContainer.querySelector(
       ".project-description"
     );
