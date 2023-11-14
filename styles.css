@@ -547,7 +547,7 @@ body {
 }
 
 .project-img {
-  width: 100px;
+  width: 108px;
   height: 120px;
   border-radius: 4px;
   transition: transform 0.5s;
@@ -853,7 +853,6 @@ footer {
   }
   .competence p {
     font-size: 19px;
-    font-family: "Roboto black", sans-serif;
   }
 
   .fas.fa-plus.fa-2x.icon-blue {
@@ -1149,7 +1148,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin-top: 5.625rem;
+  margin-top: 3.625rem;
 }
 #first-project-container {
   margin-top: 0;
