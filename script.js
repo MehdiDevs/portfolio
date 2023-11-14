@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Text deleting and re writing
   const textElement = document.getElementById("animated-text");
-  const messages = ["Full stack developer", "Sport addict"];
+  const messages = ["Software developer", "Sport addict"];
   const firstSectionImage = document.getElementById("profil-picture");
 
   let messageIndex = 0;
@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function () {
       typingSpeed = 100;
       messageIndex = (messageIndex + 1) % messages.length;
       if (currentMessage !== "SPORT ADDICT") {
-        firstSectionImage.src = "img/test.avif";
+        firstSectionImage.src = "img/streetWorkout.png";
       } else {
         firstSectionImage.src = "img/Cv_picture.jpeg";
       }
