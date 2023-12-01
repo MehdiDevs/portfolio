@@ -1043,7 +1043,6 @@ footer {
   transform: translateY(100px);
   transition: transform ease-in-out 0.6s;
   font-size: 71px;
-  font-family: "Monument Extended Bold";
 }
 
 .hidden-block-project-title {
@@ -1059,7 +1058,6 @@ footer {
 }
 .project-title,
 .second-project-title {
-  font-family: "Monument Extended Bold";
   font-size: 32px;
 }
 .second-project-title,
